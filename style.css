@@ -23,6 +23,8 @@ main {
     display: flex;
 
     border-radius: 0.5rem;
+
+    overflow: hidden;
 }
 
 
@@ -35,7 +37,7 @@ main {
     position: relative;
     height: inherit;
 
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 section {
@@ -117,7 +119,6 @@ li {
         height: fit-content;
         width: 25rem;
 
-        overflow: hidden;
     }
 
     .card-image-div {
