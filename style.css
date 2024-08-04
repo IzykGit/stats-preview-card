@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+
+    background-color:  hsl(233, 47%, 7%);
+}
+
+main {
+    width: 69rem;
+    height: 28rem;
+    background-color: hsl(244, 38%, 16%);
+
+    display: flex;
+}
+
+
+.card-image {
+    height: 100%;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    padding: 2.5rem 4rem 3rem 4rem;
+}
+
+
+
+.stats-header {
+    font-size: 2.3rem;
+    font-family: "Inter", sans-serif;
+
+    letter-spacing: 0.05rem;
+}
+
+.stats-desc {
+    line-height: 1.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.stats-list {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    gap: 3.5rem;
+
+    list-style-type: none;
+    padding-left: 0;
+
+    width: 100%;
+
+    font-family: "Inter", sans-serif;
+}
+
+.stats-list > * {
+    margin-left: 0;
+}
+
+li {
+    line-height: 1.4rem;
+}
+
+.list-stat {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.list-type {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
